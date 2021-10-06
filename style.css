@@ -1,0 +1,111 @@
+.containers{
+    margin: 50px;
+}
+
+.card-wrapper{
+    margin-top: 100px !important;
+}
+
+.card{
+    width: 640px;
+}
+
+.college-name{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.star{
+    color: lightgray;
+}
+
+.side-content{
+    text-align: right;
+}
+
+.cost-price{
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.card-price {
+	display: inline-block;
+  
+  width: auto;
+	height: 20px;
+	
+	background-color: red;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid red;
+
+	/* This makes room for the triangle */
+	margin-left: 19px;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 20px;
+
+	padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.card-price:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -15px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 15px solid red;
+}
+
+/* Makes the circle */
+.card-price:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -9px;
+	top: 8px;
+}
+
+.address{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+.distance{
+    color: #948484;
+}
+
+.fees{
+    font-size: 29px;
+    color: red;
+    margin-bottom: 0;
+}
+
+.desc{
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+
+.match{
+    color: #37b396;
+}
+
+.grey-text{
+    color: lightgray;
+}
